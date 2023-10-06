@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+/* Made by TheSkateVeteran yurrr */
+* {
+	margin: 0px;
+	padding: 0px;
+  box-sizing: border-box;
+}
+
+* {
+	font-family: 'Montserrat', serif;
+}
+body {
+	height: 360px;
+	width: 640px; 
+	position: relative;
+	background: url('https://wallpapercave.com/wp/wp1836700.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#mainPage {
+	height: 100%;
+	width: 100%;
+	z-index: 0;
+	position: absolute;
+}
+
+h1 {
+	text-transform: uppercase;
+	color: white;
+	text-shadow: 2px 3px 5px rgba(0,0,0,0.5);
+}
+
+.errorMessage {
+	background: rgba(0, 0, 0, 0.5);
+	padding: 10px;
+	border-radius: 20px;
+	margin: 10px 0;
+}
+
+.errorMessage h2 {
+	color: red;
+	text-shadow: 2px 3px 5px rgba(0,0,0,0.5);
+	text-transform: uppercase;
+}
+
+.errorMessage p {
+	color: white;
+	text-shadow: 2px 3px 5px rgba(0,0,0,0.5);
+	text-transform: uppercase;
+}
+
+.mainPic {
+	display: none;
+}
+
+.story {
+	display: none;
+}
+
+#wrap {
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+button {
+	background: #333; 
+	color: white;
+	padding: 15px 20px;
+	box-shadow: 0px 0px 0px transparent;
+	border: 0px solid transparent;
+	text-shadow: 0px 0px 0px transparent;
+	transition: 200ms all ease-in-out;
+}
+
+button:hover {
+	padding: 15px 30px;
+	cursor: pointer;
+}
+
+#footer {
+	position: absolute;
+	bottom: 10px;
+	left: 50%;
+	color: white;
+	transform: translateX(-50%);
+	display: flex;
+	align-items: center;
+}
+
+#footer a {
+	display: block;
+	margin: 0 10px;
+	text-decoration: none;
+	color: white;
+	text-shadow: 2px 3px 5px rgba(0,0,0,0.5);
+}
+
+#footer p {
+	text-shadow: 2px 3px 5px rgba(0,0,0,0.5);
+}
+
+/********************************************************************/
+
+
+#about {
+	height: 80%;
+	width: 80%;
+	z-index: -1;
+	display: none;
+	justify-content: center;
+	align-items: center;
+	background: #fd79a8;
+	color: white;
+	position: relative;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+#about .container {
+	max-width: 80%;
+}
+
+.close {
+	position: absolute;
+	top: 30px;
+	right: 30px;
+	font-size: 40px;
+	cursor: pointer;
+}
